@@ -2,9 +2,9 @@ pipeline {
 
     agent any
 
-	tools {
-        maven "MAVEN3"
-    }
+// 	tools {
+//         maven "MAVEN3"
+//     }
 
     environment {
         registry = "asenabv/vproappdock"
